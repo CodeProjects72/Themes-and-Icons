@@ -133,4 +133,4 @@ Install:
 ```bash
 ./install.sh
 ```
-### To be continued
+### To be continued...
