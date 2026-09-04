@@ -1,16 +1,16 @@
 # Themes & Icons
 
-> Guía de instalación y configuración de temas GTK e iconos para Linux.
+> Installation and configuration guide for GTK themes and icons for Linux.
 
-Personaliza el escritorio Linux de una forma sencilla y moderna.
+Customize your Linux desktop in a simple and modern way.
 
-### Distribuciones
+### Distributions
 
 - Debian
 - Arch Linux
 - Fedora
 
-### Temas
+### Themes
 
 - Orchis
 - Layan
@@ -18,7 +18,7 @@ Personaliza el escritorio Linux de una forma sencilla y moderna.
 - Sweet
 - New-Flavor
 
-### Iconos
+### Icons
 
 - Papirus
 - Tela
@@ -27,9 +27,9 @@ Personaliza el escritorio Linux de una forma sencilla y moderna.
 
 ---
 
-## 01 · Dependencias
+## 01 · Dependencies
 
-Antes de instalar los temas e iconos, instala las herramientas necesarias para descargar y compilar algunos de los proyectos.
+Before installing the themes and icons, install the tools necessary to download and compile some of the projects.
 
 ### Debian
 
@@ -52,31 +52,31 @@ sudo dnf install git
 
 ---
 
-# Temas GTK
+# Themes GTK
 
 ## 02 · Orchis
 
 ### Debian
 
-Instala las dependencias:
+Install the dependencies: 
 
 ```bash
 sudo apt install sassc libgtk-3-dev gtk2-engines-murrine
 ```
 
-Clona el repositorio:
+Clone the repository:
 
 ```bash
 git clone https://github.com/vinceliuice/Orchis-theme.git
 ```
 
-Entra en el directorio:
+Enter the directory:
 
 ```bash
 cd Orchis-theme
 ```
 
-Instala el tema:
+Install:
 
 ```bash
 ./install.sh
@@ -84,25 +84,25 @@ Instala el tema:
 
 ### Arch Linux
 
-Instala las dependencias:
+Install the dependencies:
 
 ```bash
 sudo pacman -S sassc gtk3 gtk-engine-murrine
 ```
 
-Clona el repositorio:
+Clone the repository:
 
 ```bash
 git clone https://github.com/vinceliuice/Orchis-theme.git
 ```
 
-Entra en el directorio:
+Enter the directory:
 
 ```bash
 cd Orchis-theme
 ```
 
-Instala:
+Install:
 
 ```bash
 ./install.sh
@@ -110,25 +110,25 @@ Instala:
 
 ### Fedora
 
-Instala las dependencias:
+Install the dependencies:
 
 ```bash
 sudo dnf install sassc gtk-murrine-engine
 ```
 
-Clona el repositorio:
+Clone the repository:
 
 ```bash
 git clone https://github.com/vinceliuice/Orchis-theme.git
 ```
 
-Entra en el directorio:
+Enter the directory:
 
 ```bash
 cd Orchis-theme
 ```
 
-Instala:
+Install:
 
 ```bash
 ./install.sh
